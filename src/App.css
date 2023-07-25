@@ -1,0 +1,16 @@
+
+.primeiro-conteiner {
+  padding: 1em 16em 0 16em;
+}
+
+.bg-img {
+  background-image: url(./assets/img/background1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 44.6em;
+}
+
+.slogan {
+  padding: 8em 0 16em 0;
+}

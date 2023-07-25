@@ -1,0 +1,54 @@
+
+
+.txt-container {
+    color: white;
+  }
+
+.txt-container h1 {
+    font-size: 64px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.card-phone{
+    display: flex;
+    width: 200px;
+    height: 58px;
+    border-radius: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 8px 0 0;
+    background-color:   #FBDA64;
+    color: #000;
+}
+
+.card-phone:hover {
+    background-color: #e07332;
+    color: #fff;
+}
+
+
+.phone-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 32px;
+    
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.card-txt {
+    text-align: center;
+}
+.card-txt h1{
+    font-size: 16px;
+}
+
+.card-txt p {
+    font-size: 9px;
+}

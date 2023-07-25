@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@1,900&display=swap');
+
+.headerONE {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.icons-header {
+    display: flex;
+    justify-content: space-between;
+    width: 128px;
+}
+
+.icons {
+    height: 16px;
+}
+
+.login-header {
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+}
+
+.login {
+    display: flex;
+    height: 16px;
+    align-items: center;
+    gap: 2px;
+}
+
+.headerTWO {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+
+.logo {
+   display: flex;
+}
+
+.logo-img {
+    width: 48px;
+    height: 48px;
+}
+
+.logo-txt {
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    gap: 24px;
+}

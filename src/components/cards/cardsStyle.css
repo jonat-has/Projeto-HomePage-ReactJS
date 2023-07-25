@@ -1,0 +1,29 @@
+.card-border {
+    border: 1px solid black;
+}
+
+.card1 {
+    background-image: url('/src/assets/img/construcao.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card2 {
+    background-image: url('/src/assets/img/reforma.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card3 {
+    background-image: url('/src/assets/img/restauracao.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.txt-card {
+    color: #fff;
+}
