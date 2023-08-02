@@ -2,26 +2,26 @@
     border: 1px solid black;
 }
 
-.card1 {
-    background-image: url('/src/assets/img/construcao.jpg');
+
+.card1, .card2, .card3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 128px;
+    width: 256px;
+    background-color: rgba(0, 0, 0, 1);
+}
 
+.card1 {
+    background-image: url('/src/assets/img/construcao.jpg');
 }
 
 .card2 {
     background-image: url('/src/assets/img/reforma.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .card3 {
     background-image: url('/src/assets/img/restauracao.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .txt-card {

@@ -1,0 +1,36 @@
+
+
+.container-nossaHistoria {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 24em;
+}
+.titulo {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.historico {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.historico img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.historico h1 {
+    color: #FBDA64;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.historico p {
+    text-align: center;
+}

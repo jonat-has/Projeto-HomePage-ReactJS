@@ -1,6 +1,9 @@
-
+.main {
+  height: 80em;
+  padding: 0 16em 0 16em;
+}
 .primeiro-conteiner {
-  padding: 1em 16em 0 16em;
+  padding: 1em 0 0 0;
 }
 
 .bg-img {
@@ -9,8 +12,24 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 44.6em;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .slogan {
-  padding: 8em 0 16em 0;
+  padding: 8em 0 8em 0;
+}
+
+.historia {
+  display: flex;
+  justify-content: space-between;
+  padding: 4em 0 4em 0;
+}
+
+.historia-txt {
+  width: 50%;
 }

@@ -3,3 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+@media (max-width: 999px) {
+
+  .main {
+    padding: 0;
+  }
+}
